@@ -1,0 +1,40 @@
+DeclarationError: Undeclared identifier.
+  --> contracts/StockPriceOracle.sol:41:9:
+   |
+41 |         setChainlinkToken(address(tokenizedStock.getLinkToken()));
+   |         ^^^^^^^^^^^^^^^^^
+DeclarationError: Undeclared identifier. Did you mean "oracle"?
+  --> contracts/StockPriceOracle.sol:42:9:
+   |
+42 |         s_oracle = oracle;
+   |         ^^^^^^^^
+DeclarationError: Undeclared identifier.
+  --> contracts/StockPriceOracle.sol:43:10:
+   |
+43 |          s_updateSubscription(_subscriptionId); // Initiate Functions subscription
+   |          ^^^^^^^^^^^^^^^^^^^^
+DeclarationError: Undeclared identifier.
+  --> contracts/StockPriceOracle.sol:44:9:
+   |
+44 |         donHostedSource = _source;
+   |         ^^^^^^^^^^^^^^^
+DeclarationError: Undeclared identifier.
+  --> contracts/StockPriceOracle.sol:49:31:
+   |
+49 |         req.initializeRequest(Functions.Location.Inline,Functions.CodeLanguage.JavaScript, donHostedSource);
+   |                               ^^^^^^^^^
+DeclarationError: Undeclared identifier.
+  --> contracts/StockPriceOracle.sol:49:57:
+   |
+49 |         req.initializeRequest(Functions.Location.Inline,Functions.CodeLanguage.JavaScript, donHostedSource);
+   |                                                         ^^^^^^^^^
+DeclarationError: Undeclared identifier.
+  --> contracts/StockPriceOracle.sol:49:57:
+   |
+49 |         req.initializeRequest(Functions.Location.Inline,Functions.CodeLanguage.JavaScript, donHostedSource);
+   |                                                         ^^^^^^^^^
+DeclarationError: Undeclared identifier. Did you mean "_sendRequest"?
+  --> contracts/StockPriceOracle.sol:53:9:
+   |
+53 |         sendRequest(req);
+   |         ^^^^^^^^^^^
